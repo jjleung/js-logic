@@ -104,6 +104,14 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 4 * * **");
 
+function mustBeTrue(boo){
+
+	return boo === true;
+}
+
+console.log("mustBeTrue(10>2): " + mustBeTrue(10>2));
+console.log("mustBeTrue(1>2): " + mustBeTrue(1>2));
+
 console.log("--------------------------------------------------------------");
 
 /*
