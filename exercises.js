@@ -54,6 +54,13 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 2 * * **");
 
+function login(password){
+	return password == "test1234";
+}
+
+console.log("login('test1234'): " + login("test1234"));
+console.log("login('password'): " + login("password"));
+
 console.log("--------------------------------------------------------------");
 
 /*
