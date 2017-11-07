@@ -290,6 +290,14 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 10 * * **");
 
+function evenStevens(num){
+
+	return num%2 == 0;
+}
+
+console.log("evenStevens(16): " + evenStevens(16));
+console.log("evenStevens(61): " + evenStevens(61));
+
 console.log("--------------------------------------------------------------");
 
 /*
