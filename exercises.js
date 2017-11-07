@@ -473,8 +473,13 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 4"
  * "Player: 5"
 */
-
+console.log("*    *   *   FINAL BOSS   *   *   *");
 console.log("** * * Problem 15 * * **");
+
+for (var i = 1; i<=5; i++){
+
+	console.log("Player: " + i);
+}
 
 console.log("--------------------------------------------------------------");
 
