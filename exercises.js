@@ -417,6 +417,28 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 14 * * **");
 
+var budget = 35;
+var doughnutPrice = 4;
+var doughnutBought = 0;
+
+function buyDoughnut(){
+
+	budget -= doughnutPrice;
+	doughnutBought ++;
+
+}
+
+console.log("Starting Values: budget = " + budget + ", doughnutPrice = " + doughnutPrice + ", doughnutBought = " + doughnutBought);
+
+
+buyDoughnut();
+
+console.log("1 invoke of 'buyDoughnut': budget = " + budget + ", doughnutPrice = " + doughnutPrice + ", doughnutBought = " + doughnutBought);
+
+buyDoughnut();
+
+console.log("2 invokes of 'buyDoughnut': = " + budget + ", doughnutPrice = " + doughnutPrice + ", doughnutBought = " + doughnutBought);
+
 console.log("--------------------------------------------------------------");
 
 /*Final Boss*/
