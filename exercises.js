@@ -55,6 +55,7 @@ console.log("--------------------------------------------------------------");
 console.log("** * * Problem 2 * * **");
 
 function login(password){
+
 	return password == "test1234";
 }
 
@@ -77,6 +78,15 @@ console.log("--------------------------------------------------------------");
 */
 
 console.log("** * * Problem 3 * * **");
+
+function isGreaterThan(first, second){
+
+	return first > second;
+}
+
+console.log("isGreaterThan(4, 3): " + isGreaterThan(4, 3));
+console.log("isGreaterThan(1, 3): " + isGreaterThan(1, 3));
+
 
 console.log("--------------------------------------------------------------");
 
