@@ -200,6 +200,30 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 7 * * **");
 
+	function notEqual(first, second){
+
+	if (typeof first === "string" && typeof second === "string"){
+		
+		if (first !== second){
+
+			return "Opposites do attract.";
+		}
+		else {
+
+			return "Cause it's like you're my mirror.";
+		}
+	}
+	else{
+
+		return "Please enter strings as parameters.";
+	}
+
+	}
+
+console.log("notEqual('not', 'equal'): " + notEqual("not", "equal"));
+console.log("notEqual('equal', 'equal'): " + notEqual("equal", "equal"));
+console.log("notEqual(2, 'equal'): " + notEqual(2, "equal"));
+
 console.log("--------------------------------------------------------------");
 
 /*
