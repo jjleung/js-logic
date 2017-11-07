@@ -128,6 +128,21 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 5 * * **");
 
+function bigBird(word){
+
+	if (word.length == 3){
+
+		return "Word to Big Bird!";
+	} else{
+
+		return "Word to your mother.";
+	}
+
+}
+
+console.log("bigBird('big'): " + bigBird('big'));
+console.log("bigBird('bird'): " + bigBird('bird'));
+
 console.log("--------------------------------------------------------------");
 
 /*
