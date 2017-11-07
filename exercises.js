@@ -240,6 +240,14 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 8 * * **");
 
+function spareChange(money){
+
+	return money > 100;
+}
+
+console.log("spareChange(101): " + spareChange(101));
+console.log("spareChange(10): " + spareChange(10));
+
 console.log("--------------------------------------------------------------");
 
 /*
