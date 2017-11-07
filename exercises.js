@@ -347,6 +347,21 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 12 * * **");
 
+function graduation(credits, thesis){
+
+	if (credits >= 120 || thesis == true){
+
+		return "Congratulations on a job well done.";
+	}
+	else {
+
+		return "See you in Summer School.";
+	}
+}
+
+console.log("graduation(140, true): " + graduation(140, true));
+console.log("graduation(14, true): " + graduation(14, true));
+console.log("graduation(14, false): " + graduation(14, false));
 
 console.log("--------------------------------------------------------------");
 
