@@ -549,6 +549,31 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 
 console.log("** * * Problem 18 * * **");
 
+function allStars(ballers){
+
+	var eastArr = [];
+	var westArr = [];
+	var e = 0;
+	var w = 0;
+
+	for (var i = 0; i < players.length; i++){
+	
+		if (i%2 === 0){
+			eastArr[e] = players[i];
+			e++;
+		}
+		else {
+			westArr[w] = players[i];
+			w++;
+		}
+
+	}
+	console.log("East Array: " + eastArr);
+	console.log("West Array: " + westArr);
+}
+
+allStars(players);
+
 console.log("--------------------------------------------------------------");
 
 /*
