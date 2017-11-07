@@ -491,6 +491,11 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 16 * * **");
 
+for (var i = 0; i< myFavFoods.length; i++){
+
+	console.log(myFavFoods[i]);
+}
+
 console.log("--------------------------------------------------------------");
 
 /*
@@ -509,6 +514,23 @@ console.log("--------------------------------------------------------------");
 */
 
 console.log("** * * Problem 17 * * **");
+
+var numArray = [2, 17, 8, 90, 5];
+console.log("numArray = " + numArray);
+
+
+function sumItUp(arr){
+
+	var num = 0;
+	for (i = 0; i< arr.length; i++){
+
+		num += arr[i];
+	}
+
+	return num;
+}
+
+console.log("sumItUp(numArray): " + sumItUp(numArray));
 
 console.log("--------------------------------------------------------------");
 
