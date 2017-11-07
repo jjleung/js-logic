@@ -379,6 +379,26 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 13 * * **");
 
+function moneyTrain(speed){
+
+	if (speed < 50){
+
+		return "You are riding Honolulu's Rail.";
+	}
+	else if (speed < 100){
+
+		return "You are riding an Amtrak.";
+	}
+	else {
+
+		return "Now you ballin' in the Shinkansen!";
+	}
+}
+
+console.log("moneyTrain(45): " + moneyTrain(45));
+console.log("moneyTrain(95): " + moneyTrain(95));
+console.log("moneyTrain(100): " + moneyTrain(100));
+
 console.log("--------------------------------------------------------------");
 
 /*
