@@ -266,6 +266,14 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 9 * * **");
 
+function dirty30(one, two, three){
+
+	return (one + two + three) > 30;
+}
+
+console.log("dirty30(5, 15, 20): " + dirty30(5,15,20));
+console.log("dirty30(5, 1, 20): " + dirty30(5,1,20));
+
 console.log("--------------------------------------------------------------");
 
 /*
