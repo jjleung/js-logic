@@ -30,8 +30,15 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 function canVote (age){
 
-	
+	return age >= 18;
 }
+
+console.log("** * * Problem 1 * * **");
+
+console.log("canVote(22): " + canVote(22));
+console.log("canVote(5): " + canVote (5));
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #2
@@ -45,6 +52,9 @@ function canVote (age){
  * Console.log your result.
 */
 
+console.log("** * * Problem 2 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #3
@@ -59,7 +69,9 @@ function canVote (age){
  * Console.log your result.
 */
 
+console.log("** * * Problem 3 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #4
@@ -73,7 +85,9 @@ function canVote (age){
  * Console.log your result.
 */
 
+console.log("** * * Problem 4 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #5
@@ -87,7 +101,9 @@ function canVote (age){
  * Console.log your result.
 */
 
+console.log("** * * Problem 5 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #6
@@ -102,6 +118,9 @@ function canVote (age){
  * Console.log your result.
 */
 
+console.log("** * * Problem 6 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #7
@@ -116,6 +135,9 @@ function canVote (age){
  * Console.log your result.
 */
 
+console.log("** * * Problem 7 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #8
@@ -129,7 +151,9 @@ function canVote (age){
  * Console.log your result.
 */ 
 
+console.log("** * * Problem 8 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #9
@@ -145,7 +169,9 @@ function canVote (age){
  * Console.log your result.
 */ 
 
+console.log("** * * Problem 9 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #10
@@ -159,8 +185,9 @@ function canVote (age){
  * Console.log your result.
 */ 
 
+console.log("** * * Problem 10 * * **");
 
-
+console.log("--------------------------------------------------------------");
 
 /*
  * #11
@@ -175,6 +202,9 @@ function canVote (age){
  * Console.log your result.
 */ 
 
+console.log("** * * Problem 11 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #12
@@ -189,7 +219,9 @@ function canVote (age){
  * Console.log your result.
 */ 
 
+console.log("** * * Problem 12 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #13
@@ -203,6 +235,9 @@ function canVote (age){
  * Console.log your result.
 */ 
 
+console.log("** * * Problem 13 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #14
@@ -217,6 +252,10 @@ function canVote (age){
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+
+console.log("** * * Problem 14 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
@@ -251,6 +290,9 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+console.log("** * * Problem 15 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /* 
  * #16
@@ -258,6 +300,9 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+console.log("** * * Problem 16 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
  * #17
@@ -274,7 +319,9 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */
 
+console.log("** * * Problem 17 * * **");
 
+console.log("--------------------------------------------------------------");
 
 /*
  * #18
@@ -287,8 +334,12 @@ for (var i = 0; i<toyotaModels.length; i++){
  * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
 */ 
-
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+
+console.log("** * * Problem 18 * * **");
+
+console.log("--------------------------------------------------------------");
+
 /*
  * #19
  * Function - subways
@@ -303,6 +354,9 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
+console.log("** * * Problem 19 * * **");
+
+console.log("--------------------------------------------------------------");
 
 /*
 Final Boss
@@ -318,7 +372,9 @@ Final Boss
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
  
-  
+console.log("** * * Problem 20 * * **");
+
+console.log("--------------------------------------------------------------");  
   
 
 
