@@ -315,6 +315,21 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 11 * * **");
 
+function daClub(cover, age){
+
+	if (cover >= 21 && age >= 21){
+
+		return "Welcome to the Legends Lounge.";
+	}
+	else {
+
+		return "Chuck E Cheese is across the street.";
+	}
+}
+
+console.log("daClub(22, 30): " + daClub(22, 30));
+console.log("daClub(2, 30): " + daClub(2, 30));
+
 console.log("--------------------------------------------------------------");
 
 /*
@@ -331,6 +346,7 @@ console.log("--------------------------------------------------------------");
 */ 
 
 console.log("** * * Problem 12 * * **");
+
 
 console.log("--------------------------------------------------------------");
 
