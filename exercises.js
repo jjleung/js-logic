@@ -160,6 +160,29 @@ console.log("--------------------------------------------------------------");
 
 console.log("** * * Problem 6 * * **");
 
+function isEqual(first, second){
+
+	if (typeof first === "string" && typeof second === "string"){
+		
+		if (first === second){
+
+			return "You look mahvelous!";
+		}
+		else {
+
+			return "I don't know who you are anymore.";
+		}
+	}
+	else{
+
+		return "Please enter strings as parameters.";
+	}
+}
+
+console.log("isEqual('equal', 'equal'): " + isEqual("equal", "equal"));
+console.log("isEqual('not', 'equal'): " + isEqual("not", "equal"));
+console.log("isEqual(2, 'equal'): " + isEqual(2, "equal"));
+
 console.log("--------------------------------------------------------------");
 
 /*
