@@ -549,6 +549,8 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 
 console.log("** * * Problem 18 * * **");
 
+console.log("Version 1");
+
 function allStars(ballers){
 
 	var eastArr = [];
@@ -574,6 +576,29 @@ function allStars(ballers){
 
 allStars(players);
 
+function allStars2(ballers){
+
+	var eastArr = [];
+	var westArr = [];
+
+	for (var i = 0; i < players.length; i++){
+	
+		if (i%2 === 0){
+			eastArr.push(players[i]);
+		}
+		else {
+			westArr.push(players[i]);
+		}
+
+	}
+
+	console.log("East Array: " + eastArr);
+	console.log("West Array: " + westArr);
+}
+
+console.log("Version 2");
+allStars(players);
+
 console.log("--------------------------------------------------------------");
 
 /*
@@ -591,6 +616,20 @@ console.log("--------------------------------------------------------------");
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
 console.log("** * * Problem 19 * * **");
+
+function subways(special){
+
+	for (var i = 0; i < special.length; i++){
+
+		if (i%2 == 1){
+
+			special[i] = "Classic Tuna";
+		}
+	}
+	return special;
+}
+
+console.log("subways(subOftheDay): " + subways(subOftheDay));
 
 console.log("--------------------------------------------------------------");
 
