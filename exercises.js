@@ -649,6 +649,23 @@ var phrase = "An apple a day keeps Alice feeling awesome!";
  
 console.log("** * * Problem 20 * * **");
 
+function removeLetter(str){
+
+	var outArray = [];
+
+	for (var i = 0; i < str.length; i++){
+
+		if (str.charAt(i) != "A" && str.charAt(i) != "a"){
+
+			outArray.push(str.charAt(i));
+		}
+	}
+
+	return outArray;
+}
+
+console.log("removeLetter(phrase): " + removeLetter(phrase));
+
 console.log("--------------------------------------------------------------");  
   
 
